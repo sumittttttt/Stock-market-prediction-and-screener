@@ -63,7 +63,7 @@ if(feature =="Home"):
     st.markdown('##### -  Webapp comes with Custom Theming and Light and Dark mode.')
 
     st.markdown('#### Details related to stock prices:')
-    st.markdown('#####  - All the historical prices for last 10 years are taken from Yahoo Finance and then further pushed to SQLIte database.')
+    st.markdown('#####  - All the historical prices for last 10 years are taken from Yahoo Finance.')
     st.markdown('##### - Time period for stock prices is one day.')
 
     st.markdown('#### Fundamental Information feature overview:')
