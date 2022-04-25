@@ -84,5 +84,4 @@ streamlit run webapp.py
 ## Why not deployed anywhere?
 Because having a problem with TA-Lib installation.
 
-For the mean time here is the video
 
