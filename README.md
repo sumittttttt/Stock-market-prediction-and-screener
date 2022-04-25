@@ -84,4 +84,4 @@ streamlit run webapp.py
 ## Why not deployed anywhere?
 Because having a problem with TA-Lib installation.
 
-
+![](https://www.veed.io/view/7616d074-bb92-4489-b887-3ad5c867cf0d?sharingWidget=true)
