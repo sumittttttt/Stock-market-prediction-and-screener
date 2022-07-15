@@ -9,4 +9,4 @@ streamlit==1.7.0
 ta==0.9.0
 tensorflow==2.9.1
 yfinance==0.1.63
-python==3.9.7
+
