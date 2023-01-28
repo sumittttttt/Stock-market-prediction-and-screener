@@ -6,7 +6,7 @@
 
 
 
-![Logo](https://raw.githubusercontent.com/sumittttttt/Stock-market-prediction-and-screener/main/media/Screenshot%20(296).png)
+![Logo](https://raw.githubusercontent.com/sumittttttt/Stock-market-prediction-and-screener/main/media/vector_2.webp)
 
 
 ![](https://img.shields.io/github/repo-size/sumittttttt/Stock-market-prediction-and-screener?style=for-the-badge)
