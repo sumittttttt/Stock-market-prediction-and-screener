@@ -2,10 +2,13 @@
 # Stock Market Screener and Prediction using Machine Learning
 
 
+  
+In Stock Market Prediction, our aim is to build an efficient Machine Learning model to predict the future value of the financial stocks of a company.Our machine learning model will be presented to retail investors with a third-party web app with the help of Streamlit. Along with predicting the future values of stocks, we will provide features like fundamental information of the company, technical indicators, technical screeners and pattern recognition.
 
 
 
 
+----
 ![Logo](https://raw.githubusercontent.com/sumittttttt/Stock-market-prediction-and-screener/main/media/vector_2.webp)
 
 
@@ -15,21 +18,23 @@
 ![](https://img.shields.io/github/license/sumittttttt/Stock-market-prediction-and-screener?style=for-the-badge)
 
 ![Python version](https://img.shields.io/badge/Python%20version-3.9%2B-lightgrey?style=for-the-badge)
+
+----
 ## Authors
 
 - [@sumittttttt](https://www.github.com/sumittttttt)
 
-
+----
 ## Table of Contents
 
   - [Tech Stack](#tech-stack)
-  - [Objective](#Objective)
+  - [Objective](#objective)
   - [Data source](#data-source)
   - [Steps](steps)
   - [Model Comparison](#model-comparison)
-  - [Metrics](#RMSE-metrics)
-  - [Creating a webapp](#Creating-a-fully-fledged-webapp-with-different-features)
-  - [Lessons Learned and Recommendation](#lessons-learbed-and-recommendation)
+  - [Metrics](#rmse-metrics)
+  - [Creating a webapp](#creating-a-fully-fledged-webapp-with-different-features)
+  - [Lessons Learned and Recommendation](#lessons-learned-and-recommendation)
   - [Limitations](#limitations)
   - [Future Scope](#future-scope)
   - [Explore the Notebook](#explore-the-notebook)
@@ -37,6 +42,8 @@
   - [Run Locally](#run-locally)
   - [Explore the notebook](#explore-the-notebook)
   - [License](#license)
+  
+----
 ## Tech Stack
 
 * **Language** :  Python
@@ -51,6 +58,7 @@
 
     **Note: All this are Python packages.**
 
+----
 
 ## Objective
 
@@ -67,16 +75,20 @@ investors with a third-party web app with the help of Streamlit. Along with pred
 values of stocks, we will provide features like fundamental information of the company, technical
 indicators, technical screeners and pattern recognition
 
+----
 ## Data Source
 
 There are may ways to garb a stocks data, but in this project we have Yfinance to grab the stock OHLC data for the past 10 years.
 
+----
 ## Steps
 This project contains most primarily 2 steps,
 
 * **Model Comparison** -  Training and experimenting which Machine Learning models perform best.
 * **Building the third party webapp** - After training several models we can actually use the best model in our webapp to provide the best results.
 
+
+----
 ### Model Comparison
 
 As the main focus of the project is to develop an efficient and robust machine learning model
@@ -234,12 +246,13 @@ company.
     This is our main and most important module of the project. In this feature we will deploy our best performing ML model that is LSTM.
     It is fitted on past % years of OHLC data and it will look into past 60 days to forecast the price of upcoming day.
 
-    
+----    
 ## Lessons learned and recommendation
 
   * Through this project I have learned that stock market is very volatile and one needs to be very careful while trading.
   * Recommendation would be, one can explore more models which can perform well than LSTM or hypeetune this one to gain more precise values.
 
+----
 ## Limitations
 
   * Predicting how the stock market will perform is one of the most difficult things to do. There
@@ -247,6 +260,7 @@ company.
     irrational behavior, etc. All these aspects combine to make share prices volatile and very difficult to
     predict with a high degree of accuracy.
 
+----
 ## Future Scope
 
   * There is so much scope for the stock market in India as it is booming nowadays. Our web
@@ -257,17 +271,20 @@ company.
     timeframes like 1-day, 1-week, 1-month. So as for now, we have included only a 1-day timeframe,
     so in the future, we can at least have some more timeframes to work with.
 
+
+----
 ## Explore the Notebook
 
   To explore the notebook file [here](https://github.com/sumittttttt/Stock-market-prediction-and-screener/blob/main/model_comparison.ipynb)
     
+----
 ## Demo
 
 size of the video is more than 25 MB so I uploaded it on YT 
 
 https://youtu.be/JtEXq1kISr8
 
-
+----
 ## Run Locally
 
 Clone the project
@@ -299,6 +316,7 @@ Run the webapp
 
 This will open the webapp in your default browser
 
+----
 ## Deployment
 
   Bacause of TALib python package I am unable to deploy at this moment, but I will find a way soon.
